@@ -1,4 +1,4 @@
-.is-hidden {
+.sr-only {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -19,6 +19,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -43,4 +44,8 @@
   padding-right: 141px;
   padding-bottom: 120px;
   padding-left: 141px;
+}
+
+.title-features li {
+  width: calc((100% - 3 * 24px) / 4);
 }

@@ -30,8 +30,8 @@
   flex: 0 0 264px;
   background-color: #ffffff;
   border-bottom: 1px solid #7977775e;
-  border-bottom-left-radius: 3%;
-  border-bottom-right-radius: 3%;
+  border-bottom-left-radius: 0 0 4px 4px;
+  border-bottom-right-radius: 0 0 4px 4px;
 }
 
 .team-card p {
