@@ -1,3 +1,7 @@
+.portfolio {
+  padding: 120px 0;
+}
+
 .portfolio-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -6,6 +10,29 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.portfolio-list li {
+  width: 360px;
+  margin-bottom: 48px;
+  border-bottom: 1px solid #7977775e;
+}
+
+.portfolio-list img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .portfolio-card-title {

@@ -1,10 +1,14 @@
-.title-features {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.is-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }
 
 .features-title {
@@ -24,4 +28,19 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.title-features {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 24px;
+}
+.features {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding-top: 120px;
+  padding-right: 141px;
+  padding-bottom: 120px;
+  padding-left: 141px;
 }

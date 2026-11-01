@@ -10,6 +10,8 @@
 }
 
 .studio {
+  display: flex;
+  flex-direction: row;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -57,4 +59,41 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #404bbf;
+}
+.container.header {
+  height: 72px;
+  margin: 0 auto;
+  max-width: 1158px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav {
+  margin-left: 76px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.address {
+  margin-left: auto;
+  font-style: normal;
+}
+
+.address ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

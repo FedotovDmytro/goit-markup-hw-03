@@ -1,4 +1,9 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
@@ -6,4 +11,13 @@ body {
 
 ul {
   list-style: none;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.section {
 }

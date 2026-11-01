@@ -1,5 +1,6 @@
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -10,19 +11,29 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
+
 .team-list {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 24px;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
+
 .team-card {
+  flex: 0 0 264px;
   background-color: #ffffff;
+  border-bottom: 1px solid #7977775e;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
 }
+
 .team-card p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -31,4 +42,8 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.team-card h3 {
+  text-align: center;
 }

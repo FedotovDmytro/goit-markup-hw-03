@@ -6,7 +6,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
 }
 
 .studio-footer {
@@ -17,11 +16,11 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-  text-decoration: none;
 }
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -31,6 +30,9 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+  margin-top: 16px;
+  margin-bottom: 0;
 }
 
 .logo {
