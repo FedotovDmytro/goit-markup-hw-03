@@ -27,11 +27,8 @@
 }
 
 .team-card {
-  flex: 0 0 264px;
   background-color: #ffffff;
-  border-bottom: 1px solid #7977775e;
-  border-bottom-left-radius: 0 0 4px 4px;
-  border-bottom-right-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-card p {
@@ -46,4 +43,17 @@
 
 .team-card h3 {
   text-align: center;
+}
+
+.team-card img {
+  display: block;
+}
+
+.team-card-content {
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.team-card-content h3 {
+  margin-bottom: 8px;
 }
